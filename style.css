@@ -45,6 +45,7 @@ input{
     background: transparent;
     padding: 10px;
     font-weight: 14px;
+    min-width: 0;
 }
 button{
     border: none;
@@ -100,9 +101,6 @@ ul li span:hover{
 }
 
 @media(max-width: 400px){
-input{
-    min-width: 0;
-}
 button{
     padding: 14px 25px;
 }
