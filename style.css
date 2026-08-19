@@ -100,6 +100,9 @@ ul li span:hover{
 }
 
 @media(max-width: 400px){
+input{
+    min-width: 0;
+}
 button{
     padding: 14px 25px;
 }
